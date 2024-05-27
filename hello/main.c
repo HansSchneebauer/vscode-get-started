@@ -34,7 +34,7 @@ static void app_main (void *argument) {
   (void)argument;
 
   for(int count = 0; count<100; count++) {
-    printf ("Hello Worldx %d\r\n", count);
+    printf ("Hello Worldy %d\r\n", count);
     osDelay (1000);
   }
 
